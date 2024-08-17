@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro de Libros</title>
+</head>
+
+
+<body>
+    <h1>Registro de Libros</h1>
+
+    <div class="book-form">
+        <input type="text" id="titulo" placeholder="Título del Libro">
+        <input type="text" id="autor" placeholder="Autor">
+        <input type="date" id="año" placeholder="Año">
+        <input type="text" id="editorial" placeholder="Editorial">
+        <input type="number" id="precio" placeholder="Precio" min="0" step="0.01" required>
+        <input type="file" id="imagenPortada" accept="image/*">
+        <button onclick="registrarLibro()">Registrar Libro</button>
+    </div>
+
+    <table class="book-list">
+        <thead>
+            <tr>
+                <th>Título del Libro</th>
+                <th>Autor</th>
+                <th>Año</th>
+                <th>Editorial</th>
+                <th>Precio</th>
+                <th>Imagen de Portada</th>
+            </tr>
+        </thead>    
+        <tbody id="listaLibros">
+            
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

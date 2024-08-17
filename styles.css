@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.book-form {
+    margin-bottom: 20px;
+}
+
+.book-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.book-form button {
+    padding: 10px;
+    background-color: #0093e9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.book-list {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.book-list th, .book-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.book-list th {
+    background-color: #0caff0;
+    color: white;
+}
+
+.book-list img {
+    width: 50px;
+}
